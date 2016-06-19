@@ -29,15 +29,19 @@ java -jar build/jar/Parsing.jar CDGS.txt lookupTab.txt 1 aabaab
 java -jar build/jar/Parsing.jar CDGS02.txt lookupTab02.txt 2 aabbcc
 ```
 
-## 3. How to create the CDGS file. In the
+## 3. How to create the CDGS file. 
+
+In the
 
 - first row specify the Nonterminals separated with commas and whitespaces,
 - second row specify the Terminals the same way,
 - third row specify the axiom,
-- remaining rows: each row is one rule set. Between the rules there are commas and whitespces, the format of the rules is "<left side>-><right side>".
+- remaining rows: each row is one rule set. Between the rules there are commas and whitespces, the format of the rules is `<left side>-><right side>`.
 For an example see `CDGS.txt` or `CDGS02.txt`.
 
-## 4. How to create the lookup table file. In the
+## 4. How to create the lookup table file.
+
+In the
 
 - first row specify the table row name,
 - second row specify the table column name,
