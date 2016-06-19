@@ -1,0 +1,15 @@
+S
+a
+S->ABAC B->b C->D
+
+S
+b
+S->bABAC B->b C->D
+
+A
+a
+A->aB A->aB D->E
+
+B
+a
+B->a B->a E->b

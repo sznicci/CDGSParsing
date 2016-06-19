@@ -1,0 +1,7 @@
+S, D, F, A, B, C, E, R, T
+a, b, c
+S
+S->D, D->F, F->ABC
+A->aE, B->bR, C->cT
+E->A, R->B, T->C
+A->a, B->b, C->c

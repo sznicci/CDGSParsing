@@ -1,0 +1,23 @@
+S
+aa
+S->D D->F F->ABC
+
+S
+ab
+S->D D->F F->ABC
+
+A
+aa
+A->aE B->bR C->cT
+
+A
+ab
+A->a B->b C->c
+
+E
+aa
+E->A R->B T->C
+
+E
+ab
+E->A R->B T->C
